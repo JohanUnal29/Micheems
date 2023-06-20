@@ -1,0 +1,32 @@
+.image {
+    background: url("https://drive.google.com/uc?export=download&id=1zRw_P4HAI3X1DDclDKM77v6y1xB3bf0Z");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .image {
+        background: url("https://drive.google.com/uc?export=download&id=1uOzpLnXqN1saCKTT7lg-DFMSzjL66_k5");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.contener {
+    margin-top: 10%;
+}
+
+
+.titulo {
+    color: rgb(0, 255, 157);
+}
+
+.subtitulo {
+    color: rgb(133, 59, 202);
+}

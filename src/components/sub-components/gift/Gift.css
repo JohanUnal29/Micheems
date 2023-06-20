@@ -1,0 +1,21 @@
+.Container {
+    background-color: #55D2FA;
+    text-align: center;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    display: grid;
+    align-items: center;
+}
+
+.Apoya{
+    color: #0B0D17;
+    font-weight: 750;
+}
+
+.Mision{
+    color: #0B0D17;
+}
+
+.Container .logotipo{
+    width: 200px;
+}
+  
