@@ -1,11 +1,11 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Navbarr.css';
+import './Navbarr2.css';
 
-export default function Navbarr() {
+export default function Navbarr2() {
   return (
-    <Navbar className="nav-grande" bg="transparent" expand="lg">
+    <Navbar className="nav-grande2" bg="white" expand="lg">
       <Container fluid style={{ paddingLeft: '100px', paddingRight: '100px' }}>
         <div className="logo-container">
           <Navbar.Brand>
@@ -22,10 +22,12 @@ export default function Navbarr() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
-            <Nav.Link><Link className="Menu" to="/">Inicio</Link></Nav.Link>
-            <Nav.Link><Link className="Menu" to="/adopta">Adopta</Link></Nav.Link>
-            <Nav.Link><Link className="Menu" to="/contacto">Dona</Link></Nav.Link>
-            <Nav.Link><Link className="Menu" to="/adopcion">Solicitudes</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/">Inicio</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/adopta">Adopta</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/adopta/perros">Perros</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/adopta/gatos">Gatos</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/contacto">Dona</Link></Nav.Link>
+            <Nav.Link><Link className="Menu2" to="/contacto">Contactanos</Link></Nav.Link>
             {/* <Nav.Link className="Menu" target="_blank" href="https://www.instagram.com/dasein.accesorios/?igshid=Yzg5MTU1MDY%3D">Ir a @dasein.outfit</Nav.Link> */}
           </Nav>
           {/* <Link to="/carrito"><CardWidget cantidad="10" /></Link> */}

@@ -1,0 +1,31 @@
+.nav-grande2{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.logo-title2{
+  color: white;
+  text-decoration: none;
+}
+
+.logotipo{
+    width: 60px;
+    height: 60px;
+}
+
+.Menu2{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.Menu2:hover{
+  color:orange;
+}
+
+  @media only screen and (max-width: 992px) {
+    .nav-grande2{
+      width: 100%;
+      height: 100%;
+    }
+  }
