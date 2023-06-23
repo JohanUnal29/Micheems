@@ -19,7 +19,7 @@ const ItemDetail = ({ item }) => {
           </Card>
           <div className="info">
             <h4>{item.nombre}</h4>
-            <Form></Form>
+            <Form animal={item}></Form>
           </div>
         </Col>
 
