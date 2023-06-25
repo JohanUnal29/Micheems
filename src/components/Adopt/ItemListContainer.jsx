@@ -25,7 +25,7 @@ const ItemListContainer = () => {
             return { ...doc.data(), id: doc.id}
           }))
         })
-
+        console.log(animales);
       
     }, [categoria])
     
