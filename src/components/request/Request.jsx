@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Modal, Button, Navbar, Table } from 'react-bootstrap';
-import Navbarr from '../sub-components/navbar/Navbarr';
+import Navbarr3 from '../sub-components/navbar/Navbarr3';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase/config";
 import { Queue } from './queue.js';
@@ -60,7 +60,7 @@ export default function Request() {
 
   return (
     <div className="App">
-      <Navbarr></Navbarr>
+      <Navbarr3></Navbarr3>
       <h2>Solicitudes de adopción</h2>
       <br /><br />
       <div className="table-responsive">

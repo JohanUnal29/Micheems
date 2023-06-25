@@ -1,0 +1,33 @@
+.nav-grande3{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    background-color: #131727;
+}
+
+.logo-title3{
+  color: white;
+  text-decoration: none;
+}
+
+.logotipo{
+    width: 60px;
+    height: 60px;
+}
+
+.Menu3{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.Menu3:hover{
+  color:orange;
+}
+
+  @media only screen and (max-width: 992px) {
+    .nav-grande3{
+      width: 100%;
+      height: 100%;
+      background-color: #131727;
+    }
+  }

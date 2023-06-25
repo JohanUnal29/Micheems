@@ -28,7 +28,7 @@ const Home = () => {//Funcion constructora
           {<><Navbarr /><Container className="contener d-flex flex-column justify-content-center align-items-center text-center h-100">
             <h1 className='titulo'>EL ARTE DE ADOPTAR</h1>
             <h2 className='subtitulo'> Buscamos facilitar a los peluditos <br /> encontrar un hogar <br /> lleno de mucho amor y estabilidad</h2>
-            <Button variant="primary" style={{ borderRadius: '5px', backgroundColor: 'purple', borderColor: 'purple' }}><Link className="Menu" to="/nosotros">Adopta</Link></Button>
+            <Button variant="primary" style={{ borderRadius: '5px', backgroundColor: 'purple', borderColor: 'purple' }}><Link className="Menu" to="/adopta">Adopta</Link></Button>
           </Container></>}
         </div>
       </div>
