@@ -65,7 +65,7 @@ export default function Navbarr() {
           <Button type="submit" variant="primary"
             // style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
             onClick={comparar}>
-            Adoptar
+            Iniciar
           </Button>
           <Button variant="danger" onClick={() => setModalInsertar(false)}>
             Cancelar
