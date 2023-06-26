@@ -120,7 +120,7 @@ const ItemDetail = ({ item }) => {
             <Card style={{ width: '20rem' }}>
               <Card.Img src={item.imagen} />
             </Card>
-            <div className="info">
+            <Card style={{ width: '20rem', height:'100%', justifyContent:'center', alignItems:'center'}}>
               <h4>{item.nombre}</h4>
               <h6>- Raza: {item.raza}</h6>
               <h6>- Genero: {item.genero}</h6>
@@ -131,7 +131,7 @@ const ItemDetail = ({ item }) => {
               <h6>- Enfermedad: {item.enfermedad}</h6>
               <h6>- Vacunas: {item.vacunas}</h6>
               <Button variant="success" onClick={abrirModalInsertar}>Adoptar</Button>
-            </div>
+            </Card>
           </Col>
 
         </Row>

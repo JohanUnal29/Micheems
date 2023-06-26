@@ -10,13 +10,3 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-
-.info{
-    background-color: white;
-    width: 20rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
