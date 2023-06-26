@@ -11,13 +11,13 @@ function Gift() {
             </Row>
             <Row>
                 <Col>
-                    <a href="https://recarga.nequi.com.co/bdigitalpsl/?_ga=2.28044408.513740999.1687232391-739560750.1687232391#!/">
+                    <a href="https://recarga.nequi.com.co/bdigitalpsl/?_ga=2.28044408.513740999.1687232391-739560750.1687232391#!/" target='_blank'>
                         <img className="logotipo" src="https://drive.google.com/uc?export=download&id=1-5sgRqqE-eNrj3W--hzYSFa-WD589bQD" alt="Logo/botón nequi" />
                     </a>
                 </Col>
 
                 <Col>
-                    <a href="https://recarga-daviplata.epayco.co/meter-plata">
+                    <a href="https://recarga-daviplata.epayco.co/meter-plata" target='_blank'>
                         <img className="logotipo" src="https://drive.google.com/uc?export=download&id=15IIF_JfAqeQMUyhuByplVdpfc4YTMwYs" alt="Logo/botón nequi" />
                     </a>
                 </Col>

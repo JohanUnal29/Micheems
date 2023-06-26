@@ -15,17 +15,17 @@ export default function Footer() {
                 </div>
                 <div class="box">
                     <h2>Contactanos</h2>
-                    <p><IoIosPhonePortrait className='emailphone'/> (+57) 304 4173426</p>
-                    <p><MdEmail className='emailphone'/> dasein.accesorios@gmail.com</p>
+                    <p><IoIosPhonePortrait className='emailphone'/> (+57) 320 2420980</p>
+                    <p><MdEmail className='emailphone'/> Micheems@gmail.com</p>
                 </div>
                 <div class="box">
                     <h2>Siguenos</h2>
                     <div class="red-social">
-                        <a href="https://api.whatsapp.com/message/FKO3LZ4ELRU4E1?autoload=1&app_absent=0"><FaWhatsapp className='fa fa-whatsapp' /></a>
-                        <a href="https://instagram.com/dasein.accesorios?igshid=Yzg5MTU1MDY="><FaInstagram className='fa fa-instagram' /></a>
-                        <a href="https://twitter.com/Dasein_Joyeria?t=oLz6gMHnPquQC8BFYdeCwA&s=09"><FaTwitter className='fa fa-twitter' /></a>
-                        <a href="https://www.facebook.com/Dasein.outfit?mibextid=ZbWKwL"><FaFacebook className='fa fa-facebook' /></a>
-                        <a href="https://www.facebook.com/Dasein.outfit?mibextid=ZbWKwL"><FaTiktok className='fa fa-tiktok' /></a>
+                        <a href="#"><FaWhatsapp className='fa fa-whatsapp' /></a>
+                        <a href="#"><FaInstagram className='fa fa-instagram' /></a>
+                        <a href="#"><FaTwitter className='fa fa-twitter' /></a>
+                        <a href="#"><FaFacebook className='fa fa-facebook' /></a>
+                        <a href="#"><FaTiktok className='fa fa-tiktok' /></a>
                     </div>
                 </div>
             </div>

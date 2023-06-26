@@ -25,7 +25,6 @@ export default function Navbarr2() {
             <Nav.Link><Link className="Menu2" to="/">Inicio</Link></Nav.Link>
             <Nav.Link><Link className="Menu2" to="/adopta/perros">Perros</Link></Nav.Link>
             <Nav.Link><Link className="Menu2" to="/adopta/gatos">Gatos</Link></Nav.Link>
-            <Nav.Link><Link className="Menu2" to="/adopcion">Solicitudes</Link></Nav.Link>
             {/* <Nav.Link className="Menu" target="_blank" href="https://www.instagram.com/dasein.accesorios/?igshid=Yzg5MTU1MDY%3D">Ir a @dasein.outfit</Nav.Link> */}
           </Nav>
           {/* <Link to="/carrito"><CardWidget cantidad="10" /></Link> */}
