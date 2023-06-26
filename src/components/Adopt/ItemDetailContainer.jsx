@@ -3,6 +3,7 @@ import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
+import Navbarr4 from '../sub-components/navbar/Navbarr4';
 import "./ItemDetail.css";
 const ItemDetailContainer = () => {
 
@@ -25,6 +26,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div className="conta">
+        <Navbarr4></Navbarr4>
         {item && <ItemDetail item={item} />}
     </div>
   )
